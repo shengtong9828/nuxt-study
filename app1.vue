@@ -3,6 +3,7 @@
     <!-- <NuxtWelcome /> -->
     <h1>hello nuxt</h1>
     <button @click="a">test</button>
+    <cs></cs>
   </div>
 </template>
 
