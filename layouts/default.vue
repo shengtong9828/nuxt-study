@@ -30,3 +30,8 @@ let value = ref("");
 function onSearch() {}
 function onCancel() {}
 </script>
+<style scoped>
+.van-tabbar--fixed {
+  position: fixed !important;
+}
+</style>
