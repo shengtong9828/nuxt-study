@@ -1,0 +1,9 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "singleQuote": true,
+    "vue/component-tags-order": "off",
+    "no-console": "off",
+    "curly": "off"
+  }
+}

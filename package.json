@@ -1,22 +1,30 @@
 {
-  "name": "nuxt-app",
   "private": true,
+  "packageManager": "pnpm@7.9.0",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "postinstall": "nuxi prepare",
+    "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@types/node": "^18",
-    "@vant/nuxt": "^1.0.1",
-    "nuxt": "^3.5.2",
-    "postcss": "^8.4.24",
-    "postcss-pxtorem": "^6.0.0"
+    "@antfu/eslint-config": "^0.30.1",
+    "@iconify-json/carbon": "^1.1.10",
+    "@iconify-json/twemoji": "^1.1.5",
+    "@pinia/nuxt": "^0.4.3",
+    "@unocss/nuxt": "^0.46.5",
+    "@vueuse/nuxt": "^9.5.0",
+    "@xianzhengquan/postcss-px-2-vw": "^0.0.1",
+    "eslint": "^8.27.0",
+    "nuxt": "^3.0.0",
+    "pinia": "^2.0.23",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3"
   },
   "dependencies": {
     "sm-crypto": "^0.3.12",
-    "vant": "^4.4.1"
+    "vant": "^4.0.0-rc.8"
   }
 }
